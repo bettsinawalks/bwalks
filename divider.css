@@ -1,0 +1,50 @@
+
+.divider-vertical {
+    border-left: 1px solid #f2f2f2;
+    height: auto;
+  }
+
+.m-r-8 {
+  margin-right: 8px;
+}
+
+
+.navbar-dropdown {
+  width: 12rem;
+}
+.navbar-dropdown p {
+  width: 10rem;
+  white-space: normal;
+  padding-left: 26px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .navbar-dropdown p{
+    width: 100%;
+    white-space: nowrap;
+  }
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+  .reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+
+.is-img-aligned {
+  float: right;
+}
+
+@media(max-width: 768px) { /* <== You can change this break point as per your  needs */
+  .is-img-aligned {
+    float: left;
+  }
+
+  .content figure {
+    margin-left: 0;
+    margin-right: 6rem;
+    float: left;
+}
+ 
+}
