@@ -9,111 +9,196 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-    <!--navbar starts-->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+  
+  <!--navbar starts-->
+  <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+    <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://www.bettsinawalks.com">
-          <img src="images/favicon.png" width="28" height="28">
+        <a class="navbar-item" href="https://bettsinawalks.com">
+          <img src="images/bwalks-logo.svg" width="183" height="30">
         </a>
     
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+        <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
     
-      <div id="navbarBasic" class="navbar-menu">
+      <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">
-            Projects
+          <a class="navbar-item" href="projects.html">
+            <span class="icon m-r-8">
+              <i class="fas fa-briefcase has-text-primary"></i>
+            </span>
+            <span>Projects</span>
           </a>
     
-          <a class="navbar-item">
-            Skillshare
+          <a class="navbar-item" href="motion-design-for-ui-designers.html">
+            <span class="icon m-r-8">
+              <i class="fas fa-graduation-cap has-text-info"></i>
+            </span>
+            <span>Skillshare</span>  
           </a>
-    
+
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Explore
+            <a class="navbar-link" href="#">
+              More
             </a>
-    
+          
+
             <div class="navbar-dropdown">
-              <a class="navbar-item">
-                About
+              <a class="navbar-item" href="#">
+                <span>
+                  <span class="icon">
+                    <i class="fas fa-pen-nib has-text-danger"></i>
+                  </span>
+                  <strong>Design Process</strong>
+                  <br>
+                  <p>From ideation to production.</p>
+                </span>
               </a>
-              <a class="navbar-item">
-                Music
-              </a>
-              <a class="navbar-item">
-                Art Installation
-              </a>
+
               <hr class="navbar-divider">
-              <a class="navbar-item">
-                Writings
+
+              <a class="navbar-item" href="#">
+                <span>
+                  <span class="icon">
+                    <i class="fas fa-flask" style="color:lightsalmon"></i>
+                  </span>
+                  <strong>Experiments</strong>
+                  <br>
+                  <p>Art installation & visual coding.</p>
+                </span>
+              </a>
+
+              <hr class="navbar-divider">
+              
+              <a class="navbar-item" href="#">
+                <span>
+                  <span class="icon">
+                    <i class="fas fa-paint-roller has-text-success"></i>
+                  </span>
+                  <strong>On the Side</strong>
+                  <br>
+                  <p>Music making & illustration.</p>
+                </span>
+              </a>
+
+              <hr class="navbar-divider">
+              
+              <a class="navbar-item" href="#">
+                <span>
+                  <span class="icon">
+                    <i class="fas fa-user-ninja" style="color:mediumpurple"></i>
+                  </span>
+                  <strong>About</strong>
+                  <br>
+                  <p>Life-log of Bettsina.</p>
+                </span>
               </a>
             </div>
           </div>
         </div>
+
+        
     
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light">
-                Log in
-              </a>
-            </div>
+            <a class="icon is-large" href="https://dribbble.com/bwalkinson">
+              <i class="fab fa-dribbble-square fa-2x has-text-dark"></i>
+            </a>
+            <a class="icon is-large" href="https://medium.com/@Pegicorn">
+              <i class="fab fa-medium fa-2x has-text-dark"></i>
+            </a>
+            <a class="icon is-large" href="https://twitter.com/Bettsinawalks">
+              <i class="fab fa-twitter-square fa-2x has-text-dark"></i>
+            </a>
+            <a class="icon is-large" href="https://www.behance.net/bettsinawalks">
+              <i class="fab fa-behance-square fa-2x has-text-dark"></i>
+            </a>
           </div>
         </div>
       </div>
-    </nav>
-    <!--navbar ends-->
+      
+    </div>
+    
+  </nav>
+  <!--navbar ends-->
 
-    <!--hero starts-->
-    <section class="hero is-fullheight">
-        <div class="hero-body">
+<!--hero starts-->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered is-variable is-8 reverse-columns">
+        <div class="column is-7">
+          <div class="content">
+          <h1 class="title is-1">
+            Made in Mexico <img src="https://image.flaticon.com/icons/svg/206/206600.svg" width="35px">, Canadian by heart <img src="https://image.flaticon.com/icons/svg/206/206609.svg" width="35px"> post-nomad in Europe <img src="https://image.flaticon.com/icons/svg/206/206593.svg" width="35px"> and married to a Brit <img src="https://image.flaticon.com/icons/svg/206/206592.svg" width="35px">.
+          </h1>
+          <br>
+          <h2 class="subtitle is-4">
+            Currently product designer consultant @ Blockchain.com
+          </h2>
+        </div>
+        </div>
+        <div class="column is-5">
+          <div class="content is-img-aligned">
+          <figure class="image">
+            <img src="images/bwalks-portrait-round1.png">
+          </figure>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--hero ends-->
+
+
+    <!--section starts-->
+    <section class="section">
+       
           <div class="container">
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
-                  <article class="tile is-child box">
-                    <figure class="image is-1440×900">
+                  <a class="tile is-child box" href="projects.html">
+                    <figure class="image">
                         <h1 class="title">Projects</h1>
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_8eIPwY.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
                     </figure>
                     <p class="subtitle">Product design, animation, art installation.</p>
-                  </article>
+                  </a>
                 </div>
 
                 <div class="tile is-parent">
-                  <article class="tile is-child box">
-                    <h1 class="title">Skillshare</p>
-                    <figure class="image is-1440x900">
+                  <a class="tile is-child box" href="motion-design-for-ui-designers.html">
+                    <figure class="image">
+                        <h1 class="title">Skillshare</h1>
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_12k7oQ.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
                     </figure>
-                    <p class="subtitle">Motion Graphics for UI Designers using Principle for Mac</p>
-                  </article>
+                    <p class="subtitle">Motion design for UI designers course.</p>
+                  </a>
                 </div>
               </div>
           </div>
-        </div>
+        
       </section>
-    <!--hero ends-->
+    <!--section ends-->
 
 
 
-    <!--footer-->
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>© 2020 Bettsinawalks</strong> created by Bettsina Walkinson using <a href="https://bulma.io/" target="_blank">Bulma</a> front-end framework.
-        </p>
-      </div>
-    </footer>
+   <!--footer-->
+   <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>© 2020 Bettsinawalks</strong> created by Bettsina Walkinson using <a href="https://bulma.io/" target="_blank">Bulma</a> front-end framework.
+      </p>
+      <p>Credits to: Bulma framework, Lottie public animations & random developer comments in Stack Overflow.</p>
+    </div>
+  </footer>
 
   </body>
 
