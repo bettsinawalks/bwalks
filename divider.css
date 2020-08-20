@@ -4,6 +4,11 @@
     height: auto;
   }
 
+.divider-horizontal {
+  border: 1px solid #f2f2f2;
+  width: auto;
+}
+
 .m-r-8 {
   margin-right: 8px;
 }
@@ -43,8 +48,79 @@
 
   .content figure {
     margin-left: 0;
-    margin-right: 6rem;
+    margin-right: 15rem;
     float: left;
+    max-width: 150px;
 }
- 
+
+  .column.is-5{
+    padding-left: 0% !important;
+  }
 }
+
+
+.wrapper {
+    /* Prevent vertical gaps */
+    line-height: 200px;
+   
+    -webkit-column-count: 2;
+    -webkit-column-gap:   100px;
+    -moz-column-count:    2;
+    -moz-column-gap:      100px;
+    column-count:         2;
+    column-gap:           100px;
+    row-gap:              100px;
+    grid-auto-flow: dense !important;
+  }
+
+
+.wrapper img {
+   /* Just in case there are inline attributes */
+   width: 100% !important;
+   height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+
+.css-selector {
+  background: linear-gradient(340deg, #293a35, #374167, #533365);
+  background-size: 600% 600%;
+  opacity: 09;
+.
+  -webkit-animation: AnimationName 19s ease infinite;
+  -moz-animation: AnimationName 19s ease infinite;
+  animation: AnimationName 19s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:40% 0%}
+  50%{background-position:61% 100%}
+  100%{background-position:40% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:40% 0%}
+  50%{background-position:61% 100%}
+  100%{background-position:40% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:40% 0%}
+  50%{background-position:61% 100%}
+  100%{background-position:40% 0%}
+}
+
+
