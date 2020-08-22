@@ -101,7 +101,6 @@
   background: linear-gradient(340deg, #293a35, #374167, #533365);
   background-size: 600% 600%;
   opacity: 09;
-.
   -webkit-animation: AnimationName 19s ease infinite;
   -moz-animation: AnimationName 19s ease infinite;
   animation: AnimationName 19s ease infinite;
@@ -124,3 +123,18 @@
 }
 
 
+@media (max-width: 1000px) {
+  .level {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: inline;
+    flex-wrap: wrap-reverse;
+  }
+
+  .level-item {
+    justify-content: flex-start ;
+  }
+}
