@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12313787-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-12313787-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Dashboard Design</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="divider.css">
+    <link rel="stylesheet" href="sizes.scss">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+
+<!--navbar starts-->
+<nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bettsinawalks.com">
+        <strong>Bettsina Walkinson</strong>
+      </a>
+  
+      <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+  
+        <!--
+        <a class="navbar-item" href="about_bettsina_walkinson.html">
+          <span>About</span>  
+        </a>
+        -->
+
+        <!--dropdown starts-->
+        <!--
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-pen-nib has-text-danger"></i>
+              </span>
+              <strong>Design Process</strong>
+              <br>
+              <p>From ideation to production.</p>
+            </span>
+          </a>
+
+          <hr class="navbar-divider">
+
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-flask" style="color:lightsalmon"></i>
+              </span>
+              <strong>Experiments</strong>
+              <br>
+              <p>Art installation & visual coding.</p>
+            </span>
+          </a>
+
+          <hr class="navbar-divider">
+          
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-paint-roller has-text-success"></i>
+              </span>
+              <strong>On the Side</strong>
+              <br>
+              <p>Music making & illustration.</p>
+            </span>
+          </a>
+
+          <hr class="navbar-divider">
+          
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-user-ninja" style="color:mediumpurple"></i>
+              </span>
+              <strong>About</strong>
+              <br>
+              <p>Life-log of Bettsina.</p>
+            </span>
+          </a>
+        </div>
+        -->
+        <!--dropdown starts-->
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://www.linkedin.com/in/bettsinawalks/">
+          <span class="icon">
+            <i class="fab fa-linkedin-in"></i>
+          </span> 
+        </a>
+
+        <!--
+        <a class="navbar-item" href="#">
+          <span class="icon">
+            <i class="fab fa-dribbble"></i>
+          </span> 
+        </a>
+        -->
+
+        <a class="navbar-item" href="https://vimeo.com/bettsina">
+          <span class="icon">
+            <i class="fab fa-vimeo-v"></i>
+          </span> 
+        </a>
+
+        <a class="navbar-item" href="https://medium.com/@Pegicorn">
+          <span class="icon">
+            <i class="fab fa-medium-m"></i>
+          </span> 
+        </a>
+      </div>
+
+    </div>
+  
+  </div>      
+</div>
+</nav>
+<!--navbar ends-->
+
+<!--hero starts-->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-mobile">
+        <div class="column is-8 is-offset-2">
+          <h1 class="title is-1">
+            Student Dashboard
+          </h1>
+          <h2 class="subtitle is-3">
+            Product design for a consumer platform.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="content">
+      <br>
+      <br>
+      <img src="images/student_dashboard_dark_mode.png">
+    </div>
+  </div>
+
+  </div>
+</section>
+<!--hero ends-->
+
+<!--content-->
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns is-variable is-8">
+        <div class="column is-6 is-offset-1">
+          <h1 class="title">Overview</h1>
+          <p>The Corporate Finance Insitute (CFI) is an online provider of financial courses and certifications with more than 1 million students around the world.</p>
+          
+          <p>During my time at CFI, I was tasked with designing the student dashboard from end to end. The dashboard provides easy access to courses and certification programs. Students can purchase, and enroll in new courses, view lessons and take quizzes, as well as look at their learning progress per course and per program as a whole.</p>
+        </div>
+        
+        <div class="column is-4">
+          <h2 class="subtitle is-4">
+            Info
+          </h2>
+          <h4 class="subtitle is-5" style="margin-bottom: 0.2rem;">
+            Contribution
+          </h4>
+          <p>User research, UI/UX design, Wireframing, Prototyping</p>
+          <h4 class="subtitle is-5" style="margin-bottom: 0.2rem;">
+            Tools
+          </h4>
+          <p>Figma | Miro | Whimsical | Usability Hub</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/student_dashboard_update.png">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      <div class="column is-3 is-offset-1">
+        <h1 class="title">
+          End-to-end Product Design
+        </h1>
+      </div>
+
+      <div class="column is-7">
+        <div class="content">
+          <h2 class="subtitle is-4">
+            Requirements
+          </h2>
+          <p>The goal for the users is to have a platform where they can access courses to improve their skills. This platform should be easy to use, and simple, yet engaging to maximize retention. The user needs include: search for new courses and/or learning resources, enroll in new courses, purchase courses and start learning right away, access to their progress easily, and download transcripts and certificates.</p>
+            
+          <p>The business goal is to have a platform that can host all courses and certifications, upsell new products, and integrate the dashboard with a shopping cart. Eventually, the dashboard would become a robust product that could be offered and tailored to businesses.</p>
+
+          <h2 class="subtitle is-4">
+            Additions
+          </h2>
+          <p>Some gamification features were implemented. In order to motivate the user to keep coming back to the dashboard, we added progress bars and charts, job postings and badges.</p>
+
+          <p>The dashboard is the home of our learners, a place to learn, have fun, feel part of a community and discover new things. We want our users to feel proud of their achievements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/certification_overview.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          Information Architecture
+        </h1>
+        <p>The first step was to create a table of contents and ensure all pages followed a clear logic. The next step was to design the dashboard’s side nav menu and top header.</p>
+
+        <p>Most of the interface elements had to be created from scratch and later added to our design system. The basic components were created first:</p>
+        <ul>
+          <li>Page layout</li>
+          <li>Input forms</li>
+          <li>Sidebar</li>
+          <li>Navbar</li>
+          <li>Search bar</li>
+          <li>Modals</li>
+          <li>Cards</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/dashboard-design-01.jpg">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/dashboard-design-02.png">
+    </figure><br>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          From Requirements to Pixels
+        </h1>
+        <p>Once we had everything in place, it was time to test the information architecture and UX design.</p>
+
+        <p>The entire dashboard was created as a full working prototype using Figma, modals and error alerts were also included.</p>
+          
+        <p><strong>User case 1: </strong>focused on upselling to a new user, this case motivates the user to purchase a course or program.<br>
+          Sign up → dashboard homepage with 0% progress → navigate to courses → enroll/buy.</p>
+          
+        <p><strong>User case 2: </strong>focused on a returning and experienced user, this case helps them continue where they left off.<br>
+          Login → dashboard homepage with 40% enrollment → continue certification → complete course.</p>
+          
+        <p><strong>User case 3: </strong>focused on bringing a user that already finished their certification.<br>
+          Login → dashboard homepage with 100% completion → view upselling of new learning resources → buy new certification.</p>
+          
+        <p>As part of the design, I wanted to include a dark mode UI. A lot of CFI users are students that work full-time and take the courses during the evening or night. I wanted to ensure the dashboard provided accessibility for this scenario. The dark mode theme was based on Google's material guidelines for dark themes.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/student_dashboard_user_flow.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          Outcome
+        </h1>
+        <p>After development, the dashboard was implemented to a selected and mixed number of users, later to 50% of users and finally to 100% of users. Throughout each phase, we delivered a user survey to understand how they use it and gather feedback about the dashboard. The feedback was overwhelmingly positive.</p>
+
+        <blockquote>“The new dashboard is more robust, and I can navigate to designated areas of the website more efficiently. I am really fond of the way CFI has set this up. Love the dark mode!.”</blockquote>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/my_courses_fmva.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="content"></div>
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <h4 class="title is-4">
+            Next
+          </h4>
+          <p>
+              <a href="https://www.rddl.xyz">rddl, NFT Project ↗.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-mobile">
+          <div class="column is-8 is-offset-2">
+            <p><strong>© 2021 Bettsinawalks</strong> coded by Bettsina Walkinson with <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer ends-->
+
+</body>
+</html>

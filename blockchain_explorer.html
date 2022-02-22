@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12313787-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-12313787-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blockchain Explorer Design</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="divider.css">
+    <link rel="stylesheet" href="sizes.scss">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+
+<!--navbar starts-->
+<nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bettsinawalks.com">
+        <strong>Bettsina Walkinson</strong>
+      </a>
+  
+      <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+  
+        <!--
+        <a class="navbar-item" href="about_bettsina_walkinson.html">
+          <span>About</span>  
+        </a>
+        -->
+
+        <!--dropdown starts-->
+        <!--
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-pen-nib has-text-danger"></i>
+              </span>
+              <strong>Design Process</strong>
+              <br>
+              <p>From ideation to production.</p>
+            </span>
+          </a>
+
+          <hr class="navbar-divider">
+
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-flask" style="color:lightsalmon"></i>
+              </span>
+              <strong>Experiments</strong>
+              <br>
+              <p>Art installation & visual coding.</p>
+            </span>
+          </a>
+
+          <hr class="navbar-divider">
+          
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-paint-roller has-text-success"></i>
+              </span>
+              <strong>On the Side</strong>
+              <br>
+              <p>Music making & illustration.</p>
+            </span>
+          </a>
+
+          <hr class="navbar-divider">
+          
+          <a class="navbar-item" href="#">
+            <span>
+              <span class="icon">
+                <i class="fas fa-user-ninja" style="color:mediumpurple"></i>
+              </span>
+              <strong>About</strong>
+              <br>
+              <p>Life-log of Bettsina.</p>
+            </span>
+          </a>
+        </div>
+        -->
+        <!--dropdown starts-->
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://www.linkedin.com/in/bettsinawalks/">
+          <span class="icon">
+            <i class="fab fa-linkedin-in"></i>
+          </span> 
+        </a>
+
+        <!--
+        <a class="navbar-item" href="#">
+          <span class="icon">
+            <i class="fab fa-dribbble"></i>
+          </span> 
+        </a>
+        -->
+
+        <a class="navbar-item" href="https://vimeo.com/bettsina">
+          <span class="icon">
+            <i class="fab fa-vimeo-v"></i>
+          </span> 
+        </a>
+
+        <a class="navbar-item" href="https://medium.com/@pegicorn">
+          <span class="icon">
+            <i class="fab fa-medium-m"></i>
+          </span> 
+        </a>
+      </div>
+
+    </div>
+  
+  </div>      
+</div>
+</nav>
+<!--navbar ends-->
+
+<!--hero starts-->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-mobile">
+        <div class="column is-8 is-offset-2">
+          <h1 class="title is-1">
+            Blockchain Explorer
+          </h1>
+          <h2 class="subtitle is-3">
+            Redesigning a cryptocurrency blockchain explorer.
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="content">
+      <br>
+      <br>
+      <img src="images/blockchain_explorer_desktop.png">
+    </div>
+  </div>
+
+  </div>
+</section>
+<!--hero ends-->
+
+<!--content-->
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns is-variable is-8">
+        <div class="column is-6 is-offset-1">
+          <h1 class="title">Overview</h1>
+          <p>Blockchain's explorer is the oldest crypto explorer with over 12 million visitors a month. It was built by engineers and barely touched by designers due to its complexity.</p>
+
+          <p>My job was to restructure and consolidate all the explorer properties, improve navigation and optimize its main pages for retention.</p>
+        </div>
+        
+        <div class="column is-4">
+          <h2 class="subtitle is-4">
+            Info
+          </h2>
+          <h4 class="subtitle is-5" style="margin-bottom: 0.2rem;">
+            Contribution
+          </h4>
+          <p>UI/UX design, Wireframing, Contributed to design system</p>
+          <h4 class="subtitle is-5" style="margin-bottom: 0.2rem;">
+            Tools
+          </h4>
+          <p>Figma | Whimsical</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/blockchain_explorer_no_ads.png">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      <div class="column is-3 is-offset-1">
+        <h1 class="title">
+          Requirements
+        </h1>
+      </div>
+
+      <div class="column is-7">
+        <div class="content">
+          <h2 class="subtitle is-4">
+            General Information
+          </h2>
+          <p>Blockchain.com made its name by creating the first Bitcoin blockchain explorer in 2011. By 2020, their explorer not only displayed network transactions but also had charts for savvy users and price data for all available cryptocurrencies.</p>
+            
+          <p>When I joined Blockchain, my first project was to redesign the entire explorer homepage and its subpages such as the block page, transaction page, and prices.</p>
+
+          <h2 class="subtitle is-4">
+            Key Goals
+          </h2>
+          <p>Ensure brand consistency across all explorer products, restructure and consolidate explorer properties, make navigation to other properties more intuitive, improve front-end pages to optimize for conversion, and increase ad revenue.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/blockchain_supported_coin.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          Understanding The Information Architecture
+        </h1>
+        <p>The explorer is used by all kinds of users, from anyone new to crypto wanting to confirm their transaction, to very technical and crypto savvy users that are looking for detailed metadata to inform them about the current status of the network, specifically for Bitcoin, Ethereum, and Bitcoin Cash.</p>
+
+        <p>As my first step, I wanted to take the time to understand how each area of the explorer was structured and tried to find patterns or common areas where I could connect them. The main pages included:</p>
+        <ul>
+          <li>Bitcoin explorer (block, transaction and address pages)</li>
+          <li>Ethereum explorer (block, transaction and address pages)</li>
+          <li>Bitcoin Cash explorer (block, transaction and address pages)</li>
+          <li>Bitcoin charts</li>
+          <li>Cryptocurrency prices list</li>
+          <li>Coin price detail page</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <figure class="image">
+          <img src="images/blockchain_new_explorer_structure.png">
+        </figure>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          Keep It Simple
+        </h1>
+        <p>Having previous experience designing web pages for conversion increase, I knew adding more copy to each page would help SEO, this could also be an opportunity to educate new users.</p>
+          
+        <p>I wanted to get buy-in from the team without adding a lot of scope to the project, so I started by adding tooltips next to the main headers.</p>
+
+        <p>To improve navigation, I noticed that the explorer pages didn't have breadcrumbs. A simple addition like that could help the user understand the relationship between pages and easily navigate to other areas.</p>
+
+        <p>To improve retention, we needed to include links to our other pages. It was clear that we needed a new explorer homepage that included links and metadata of all explorer entities, to allow for easier navigation and discovery.</p>
+
+        <p>Increasing ad revenue meant that we needed to keep the ad placements. However, I wanted to ensure they were not very disruptive to the user's experience. This was a tough challenge to fight for, so I started by simply adding rounded corners to the ad containers. A simple detail of adding smooth corners would decrease visual friction and it would make it look more on brand, as we had rounded corners on buttons and other box containers.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/blockchain_small_enhancements.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          Next Level
+        </h1>
+        <p>The next step was to take the navigation and retention strategy to the next level.</p>
+
+        <p>Looking at other products from Blockchain it became clear that the page needed to look clean, while still displaying a lot of information. The final product focused on the explorer's main page as the main navigation place. Users would land there and get a summary of everything the explorer has to offer. This also allowed an opportunity to upsell other Blockchain products.</p>
+
+        <p>As part of the retention strategy, the explorer pages also offered a high level of interactivity to the advanced user, dropdowns, coin discovery, a search engine for blocks, transactions and addresses, and an advanced view of charts. A lot of these interactive UI elements had to be designed from stratch or redesigned, which were later added to the design system to be included throughout other areas of the site.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/blockchain_components.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-2 is-8">
+        <div class="content">
+        <h1 class="title">
+          Outcome
+        </h1>
+
+        <p>With these changes, search usage improved from 9.5% to 12%. The drop-off rate went down from 40% to 30%. Improve click-through rate to Exchange product from 0.13% to 0.76%, and increased ad revenue (undisclosed figure).</p>
+
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container">
+    <figure class="image">
+      <img src="images/blockchain_pages.png">
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="content"></div>
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <h4 class="title is-4">
+            Next
+          </h4>
+          <p>
+              <a href="cfi_design_system.html">Building a Design System</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-mobile">
+          <div class="column is-8 is-offset-2">
+            <p><strong>© 2021 Bettsinawalks</strong> coded by Bettsina Walkinson with <a href="https://bulma.io/" target="_blank">Bulma</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer ends-->
+
+</body>
+</html>
